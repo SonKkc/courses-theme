@@ -1,5 +1,8 @@
 {% layout 'layouts/default.html' %}
 
 {% block content %}
-    <h1>Post</h1>
+<div class="container">
+    {% include 'components/post/header_section.html' %}
+    {% include 'components/post/content_section.html' %}
+</div>
 {% endblock %}
