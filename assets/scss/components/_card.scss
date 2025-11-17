@@ -1,0 +1,30 @@
+.card {
+  @apply max-w-xs bg-white rounded-2xl p-3 shadow-sm;
+  &__image-section {
+    @apply relative overflow-hidden rounded-xl;
+    .card__img {
+      @apply w-full h-44 object-cover rounded-xl;
+    }
+    .card__badge {
+      @apply absolute text-xs font-semibold px-3 py-1 rounded-full;
+      &--feature {
+        @apply bottom-3 left-3 top-auto bg-green-600 text-white;
+      }
+    }
+    .card__watermark {
+      @apply absolute bottom-3 right-3 flex items-center text-xs text-white font-medium bg-black/40 px-2 py-1 rounded;
+      .card__watermark-icon {
+        @apply w-4 h-4 mr-1 text-cyan-400;
+      }
+    }
+  }
+  &__title {
+    @apply mt-4 text-lg font-semibold text-[#18191A] leading-snug;
+  }
+  &__meta {
+    @apply mt-2 flex items-center space-x-2;
+    .card__meta-time {
+      @apply text-gray-400 text-sm;
+    }
+  }
+}

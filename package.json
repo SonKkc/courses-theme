@@ -1,0 +1,25 @@
+{
+  "name": "theme-mab-io",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "watch:sass": "sass --watch assets/scss/main.scss assets/css/build.css",
+    "watch:css": "npx @tailwindcss/cli -i assets/css/tailwind.css -o assets/css/styles.min.css --minify --watch",
+    "watch": "npm-run-all --parallel watch:sass watch:css",
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "chokidar": "^4.0.3",
+    "glob": "^11.0.3",
+    "liquidjs": "^10.21.1",
+    "sass": "^1.89.2",
+    "tailwindcss": "^4.1.10",
+    "vite": "^5.3.5"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

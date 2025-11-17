@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Page Title -->
+    <title>{{ pageTitle }}</title>
+    <!-- Page Description -->
+    <meta name="description" content="{{ pageDescription }}">
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="32x32">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ 'css/styles.min.css' | asset_url }}" />
+    <!-- ALPINE JS -->
+    <script src="https://unpkg.com/alpinejs" defer></script>
+    <!-- Vite Client -->
+    <!-- Tự động reload page khi có thay đổi trong views -->
+    <!-- Khi ghép theme nên xóa cái này đi -->
+    <script type="module" src="/@vite/client"></script>
+</head>
+<body>
+    {% include 'components/navbar.html' %}
+
+    <div class="main">
+        {% block content %}{% endblock %}
+    </div>
+
+    {% include 'components/footer.html' %}
+
+    <script src="{{ 'js/main.js' | asset_url }}" defer></script>
+</body>
+</html>

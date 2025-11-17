@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@import "./config.css";
+
+/* Import CSS đã build từ Sass */
+@import "./build.css";
