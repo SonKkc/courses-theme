@@ -1,0 +1,982 @@
+<div class="flex gap-10">
+    <!-- floating sidebar -->
+    <div class="hidden xl:block xl:w-1/5 p-4 h-full block lg:sticky lg:top-24">
+        <nav>
+            <ul>
+                <li class="flex items-center gap-2 mb-2">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                            d="M256 160c16-63.16 76.43-95.41 208-96a15.94 15.94 0 0116 16v288a16 16 0 01-16 16c-128 0-177.45 25.81-208 64-30.37-38-80-64-208-64-9.88 0-16-8.05-16-17.93V80a15.94 15.94 0 0116-16c131.57.59 192 32.84 208 96zm0 0v288">
+                        </path>
+                    </svg>
+                    <a role="link" class="text-gray-150 hover:text-white cursor-pointer ">About the Course</a>
+                </li>
+                <li class="flex items-center gap-2 mb-2">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path
+                            d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7zm2.85 11.1l-.85.6V16h-4v-2.3l-.85-.6A4.997 4.997 0 017 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.63-.8 3.16-2.15 4.1z">
+                        </path>
+                    </svg>
+                    <a role="link" class="text-gray-150 hover:text-white cursor-pointer ">What You'll Learn</a>
+                </li>
+                <li class="flex items-center gap-2 mb-2">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="none" d="M0 0h24v24H0V0z"></path>
+                        <path
+                            d="M20 18c1.1 0 1.99-.9 1.99-2L22 5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2H0c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2h-4zM4 5h16v11H4V5zm8 14c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z">
+                        </path>
+                    </svg>
+                    <a role="link" class="text-gray-150 hover:text-white cursor-pointer ">What You'll Build</a>
+                </li>
+                <li class="flex items-center gap-2 mb-2">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path
+                            d="M22 7h-9v2h9V7zm0 8h-9v2h9v-2zM5.54 11L2 7.46l1.41-1.41 2.12 2.12 4.24-4.24 1.41 1.41L5.54 11zm0 8L2 15.46l1.41-1.41 2.12 2.12 4.24-4.24 1.41 1.41L5.54 19z">
+                        </path>
+                    </svg>
+                    <a role="link" class="text-gray-150 hover:text-white cursor-pointer ">Curriculum</a>
+                </li>
+                <li class="flex items-center gap-2 mb-2">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z">
+                        </path>
+                    </svg>
+                    <a role="link" class="text-gray-150 hover:text-white cursor-pointer ">Target Audience</a>
+                </li>
+                <li class="flex items-center gap-2 mb-2">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path
+                            d="M12 4c4.41 0 8 3.59 8 8s-3.59 8-8 8-8-3.59-8-8 3.59-8 8-8zm0-2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm2 8H7v2h7v-2zm0-3H7v2h7V7zm-7 8h3v-2H7v2zm12-1.59L17.59 12l-3.54 3.54-1.41-1.41-1.41 1.41 2.83 2.83L19 13.41z">
+                        </path>
+                    </svg>
+                    <a role="link" class="text-gray-150 hover:text-white cursor-pointer ">Prerequisites</a>
+                </li>
+                <li class="flex items-center gap-2 mb-2">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path
+                                d="M1 22a8 8 0 1 1 16 0h-2a6 6 0 1 0-12 0H1zm8-9c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zM21.548.784A13.942 13.942 0 0 1 23 7c0 2.233-.523 4.344-1.452 6.216l-1.645-1.196A11.955 11.955 0 0 0 21 7c0-1.792-.393-3.493-1.097-5.02L21.548.784zm-3.302 2.4A9.97 9.97 0 0 1 19 7a9.97 9.97 0 0 1-.754 3.816l-1.677-1.22A7.99 7.99 0 0 0 17 7a7.99 7.99 0 0 0-.43-2.596l1.676-1.22z">
+                            </path>
+                        </g>
+                    </svg>
+                    <a role="link" class="text-gray-150 hover:text-white cursor-pointer ">Your Instructor</a>
+                </li>
+                <li class="flex items-center gap-2 mb-2">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"
+                            d="M87.48 380c1.2-4.38-1.43-10.47-3.94-14.86a42.63 42.63 0 00-2.54-3.8 199.81 199.81 0 01-33-110C47.64 139.09 140.72 48 255.82 48 356.2 48 440 117.54 459.57 209.85a199 199 0 014.43 41.64c0 112.41-89.49 204.93-204.59 204.93-18.31 0-43-4.6-56.47-8.37s-26.92-8.77-30.39-10.11a31.14 31.14 0 00-11.13-2.07 30.7 30.7 0 00-12.08 2.43L81.5 462.78a15.92 15.92 0 01-4.66 1.22 9.61 9.61 0 01-9.58-9.74 15.85 15.85 0 01.6-3.29z">
+                        </path>
+                        <circle cx="160" cy="256" r="32"></circle>
+                        <circle cx="256" cy="256" r="32"></circle>
+                        <circle cx="352" cy="256" r="32"></circle>
+                    </svg><a role="link" class="text-gray-150 hover:text-white cursor-pointer text-white">Reviews</a>
+                </li>
+            </ul>
+            <a>
+                <button
+                    class="group inline-block px-6 py-3 text-md no-underline text-center text-white font-medium md:font-semibold rounded-full bg-violet-500 hover:bg-violet-650 transition-all duration-200 ease-out hover:text-white hover:no-underline mt-2"
+                    type="submit">
+                    Enroll Now
+                </button>
+            </a>
+        </nav>
+    </div>
+    <!-- main content -->
+    <div class="w-full xl:w-4/5 xl:p-6 xl:pt-0 xl:pl-14">
+        <div id="description">
+            <div class="grid grid-cols-1  gap-8 my-10 mt-0">
+                <div class="md:mx-4" style="opacity: 1; transform: none;">
+                    <div class="grid place-items-center w-12 h-12 rounded-full my-3 bg-violet-50 dark:bg-blue-800">
+                        <div class="text-violet-500 dark:text-violet-75">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                height="25" width="25" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-md font-semibold mb-3 text-gradient inline-block text-transparent bg-clip-text">
+                        Made with 🩷</p>
+                    <h2 class="text-3xl font-semibold mb-4 lg:mb-8">About the Course</h2>
+                    <div class="max-w-prose prose">
+                        <p>AI is everywhere — but can you actually build with it?</p>
+                        <p>Most developers have played around with ChatGPT. Maybe you’ve even copied some AI-generated
+                            code into your project. But that’s not the same as building real, AI-powered features that
+                            make your apps smarter, more engaging, and more valuable to users.</p>
+                        <p>That’s exactly what this course is about.</p>
+                        <p>In Build AI-Powered Apps, I’ll walk you step by step through the <strong>concepts, modern
+                                tools, and best practices</strong> you need to create production-ready apps powered by
+                            AI.</p>
+                        <p>This is the AI course every developer needs right now</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="outcomes">
+            <div class="grid grid-cols-1  gap-8 my-10 ">
+                <div class="md:mx-4" style="opacity: 1; transform: none;">
+                    <div class="grid place-items-center w-12 h-12 rounded-full my-3 bg-violet-50 dark:bg-blue-800">
+                        <div class="text-violet-500 dark:text-violet-75">
+                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                stroke-linecap="round" stroke-linejoin="round" height="25" width="25"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z"
+                                    stroke-width="0" fill="currentColor"></path>
+                                <path
+                                    d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z"
+                                    stroke-width="0" fill="currentColor"></path>
+                                <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z"
+                                    stroke-width="0" fill="currentColor"></path>
+                                <path
+                                    d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z"
+                                    stroke-width="0" fill="currentColor"></path>
+                                <path
+                                    d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z"
+                                    stroke-width="0" fill="currentColor"></path>
+                                <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z"
+                                    stroke-width="0" fill="currentColor"></path>
+                                <path
+                                    d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z"
+                                    stroke-width="0" fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-md font-semibold mb-3 text-gradient inline-block text-transparent bg-clip-text">
+                        Highly Practical</p>
+                    <h2 class="text-3xl font-semibold mb-4 lg:mb-8">What You'll Learn</h2>
+                    <ul class="mb-8 space-y-4 text-left">
+                        <li class="flex flex-row items-start space-x-3">
+                            <div>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="w-5 h-5 inline flex-shrink-0" color="#ff4bbe" style="color:#ff4bbe"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z">
+                                    </path>
+                                </svg>
+                            </div><span class="">Understand Large Language Models (LLMs) and how they
+                                work</span>
+                        </li>
+                        <li class="flex flex-row items-start space-x-3">
+                            <div>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="w-5 h-5 inline flex-shrink-0" color="#ff4bbe" style="color:#ff4bbe"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z">
+                                    </path>
+                                </svg>
+                            </div><span class="">Work with tokens, context windows, and model settings</span>
+                        </li>
+                        <li class="flex flex-row items-start space-x-3">
+                            <div>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="w-5 h-5 inline flex-shrink-0" color="#ff4bbe" style="color:#ff4bbe"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z">
+                                    </path>
+                                </svg>
+                            </div><span class="">Write effective prompts using proven prompt engineering
+                                techniques</span>
+                        </li>
+                        <li class="flex flex-row items-start space-x-3">
+                            <div>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="w-5 h-5 inline flex-shrink-0" color="#ff4bbe" style="color:#ff4bbe"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z">
+                                    </path>
+                                </svg>
+                            </div><span class="">Build a chatbot from scratch with a clean, maintainable
+                                architecture</span>
+                        </li>
+                        <li class="flex flex-row items-start space-x-3">
+                            <div>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="w-5 h-5 inline flex-shrink-0" color="#ff4bbe" style="color:#ff4bbe"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z">
+                                    </path>
+                                </svg>
+                            </div><span class="">Create a review summarizer that helps users make faster
+                                decisions</span>
+                        </li>
+                        <li class="flex flex-row items-start space-x-3">
+                            <div>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="w-5 h-5 inline flex-shrink-0" color="#ff4bbe" style="color:#ff4bbe"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z">
+                                    </path>
+                                </svg>
+                            </div><span class="">Integrate open-source models using Hugging Face and
+                                Ollama</span>
+                        </li>
+                        <li class="flex flex-row items-start space-x-3">
+                            <div>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="w-5 h-5 inline flex-shrink-0" color="#ff4bbe" style="color:#ff4bbe"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z">
+                                    </path>
+                                </svg>
+                            </div><span class="">Run models locally on your own machine</span>
+                        </li>
+                        <li class="flex flex-row items-start space-x-3">
+                            <div>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="w-5 h-5 inline flex-shrink-0" color="#ff4bbe" style="color:#ff4bbe"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z">
+                                    </path>
+                                </svg>
+                            </div><span class="">Apply best practices and clean code principles</span>
+                        </li>
+                        <li class="flex flex-row items-start space-x-3">
+                            <div>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                    class="w-5 h-5 inline flex-shrink-0" color="#ff4bbe" style="color:#ff4bbe"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z">
+                                    </path>
+                                </svg>
+                            </div><span class="">Use modern tools to build full-stack AI-powered apps (Bun,
+                                Tailwind CSS, shadcn/ui, Prisma, and more)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="projects">
+            <div class="grid grid-cols-1  gap-8 my-10 ">
+                <div class="md:mx-4" style="opacity: 1; transform: none;">
+                    <div class="grid place-items-center w-12 h-12 rounded-full my-3 bg-violet-50 dark:bg-blue-800">
+                        <div class="text-violet-500 dark:text-violet-75">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                height="25" width="25" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="none" d="M0 0h24v24H0V0z"></path>
+                                <path
+                                    d="M20 18c1.1 0 1.99-.9 1.99-2L22 5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2H0c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2h-4zM4 5h16v11H4V5zm8 14c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-md font-semibold mb-3 text-gradient inline-block text-transparent bg-clip-text">
+                        Learn by Doing</p>
+                    <h2 class="text-3xl font-semibold mb-4 lg:mb-8">What You'll Build</h2>
+                    <div class="prose">
+                        <p><strong>Chatbot</strong>: Build a chatbot that can answer questions about an imaginary theme
+                            park — things like “What rides are suitable for kids under 10?”, “Where can I find
+                            vegetarian food options?”, or “What are the park’s opening hours?”. Instead of clicking
+                            through menus or digging through a website, visitors can get instant answers. Step by step,
+                            you’ll create the backend, structure your code using clean architecture principles, and
+                            build a modern frontend that makes the experience seamless and engaging.</p>
+                        <p><strong>Review Summarizer</strong>: These days, lots of apps let users summarize content so
+                            they can make faster decisions. In this project, we’ll build a tool that condenses customer
+                            reviews into clear, actionable insights. The techniques you’ll learn here can be applied to
+                            all sorts of AI-integrated features.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="grid grid-cols-1  gap-8 my-10 ">
+                <div class="md:mx-4" style="opacity: 1; transform: none;">
+                    <div class="grid place-items-center w-12 h-12 rounded-full my-3 bg-violet-50 dark:bg-blue-800">
+                        <div class="text-violet-500 dark:text-violet-75">
+                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                stroke-linecap="round" stroke-linejoin="round" height="25" width="25"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M3.5 5.5l1.5 1.5l2.5 -2.5"></path>
+                                <path d="M3.5 11.5l1.5 1.5l2.5 -2.5"></path>
+                                <path d="M3.5 17.5l1.5 1.5l2.5 -2.5"></path>
+                                <path d="M11 6l9 0"></path>
+                                <path d="M11 12l9 0"></path>
+                                <path d="M11 18l9 0"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-md font-semibold mb-3 text-gradient inline-block text-transparent bg-clip-text">
+                        A Perfectly Structured Course</p>
+                    <h2 class="text-3xl font-semibold mb-4 lg:mb-8">Course Content</h2>
+                    <p>7 Hours . 8 Sections . 120 Lessons</p>
+                    <div class="py-6 max-w-2xl">
+                        <div class="mb-5 py-4 px-6 border-gray-850 border-[1px] rounded-xl">
+                            <header class="flex cursor-pointer">
+                                <h3 class="text-lg font-semibold mb-0 inline flex-grow">Getting Started
+                                    <span class="ml-1 text-base">(7m)</span>
+                                </h3>
+                                <span
+                                    class="w-5 h-5 text-gray-150 inline-block transition-transform duration-300 ease-out rotate-180">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                        aria-hidden="true">
+                                        <path fill-rule="evenodd"
+                                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                            clip-rule="evenodd"></path>
+                                    </svg>
+                                </span>
+                            </header>
+                            <ul
+                                class="overflow-hidden transition-all duration-500 ease-in-out mt-5 max-h-none opacity-100">
+                                <li class="flex items-center mb-3 text-base">
+                                    <span class="flex-shrink-0 justify-start w-4 h-4 mr-3 text-gray-150">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                            aria-hidden="true">
+                                            <path
+                                                d="M3.25 4A2.25 2.25 0 001 6.25v7.5A2.25 2.25 0 003.25 16h7.5A2.25 2.25 0 0013 13.75v-7.5A2.25 2.25 0 0010.75 4h-7.5zM19 4.75a.75.75 0 00-1.28-.53l-3 3a.75.75 0 00-.22.53v4.5c0 .199.079.39.22.53l3 3a.75.75 0 001.28-.53V4.75z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="flex-grow">Welcome</span>
+                                    <a class="inline-block md:hidden" href="#">
+                                        <div class="bg-gray-710 p-2 rounded-full">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 448 512" height="8" width="8"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    <a class="group inline-block px-3 py-1 text-sm no-underline text-center text-white font-medium md:font-semibold rounded-full bg-gray-450 hover:bg-gray-500 transition-all duration-200 ease-out hover:text-white hover:no-underline hidden md:inline-block"
+                                        role="button" href="#">Preview</a>
+                                </li>
+                                <li class="flex items-center mb-3 text-base"><span
+                                        class="flex-shrink-0 justify-start w-4 h-4 mr-3 text-gray-150">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                            aria-hidden="true">
+                                            <path
+                                                d="M3.25 4A2.25 2.25 0 001 6.25v7.5A2.25 2.25 0 003.25 16h7.5A2.25 2.25 0 0013 13.75v-7.5A2.25 2.25 0 0010.75 4h-7.5zM19 4.75a.75.75 0 00-1.28-.53l-3 3a.75.75 0 00-.22.53v4.5c0 .199.079.39.22.53l3 3a.75.75 0 001.28-.53V4.75z">
+                                            </path>
+                                        </svg></span><span class="flex-grow">Prerequisites</span><a
+                                        class="inline-block md:hidden"
+                                        href="https://codewithmosh.teachable.com/courses/build-ai-powered-apps/lectures/62789462">
+                                        <div class="bg-gray-710 p-2 rounded-full">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 448 512" height="8" width="8"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                    </a><a
+                                        class="group inline-block px-3 py-1 text-sm no-underline text-center text-white font-medium md:font-semibold rounded-full bg-gray-450 hover:bg-gray-500 transition-all duration-200 ease-out hover:text-white hover:no-underline hidden md:inline-block"
+                                        role="button"
+                                        href="https://codewithmosh.teachable.com/courses/build-ai-powered-apps/lectures/62789462">Preview</a>
+                                </li>
+                                <li class="flex items-center mb-3 text-base"><span
+                                        class="flex-shrink-0 justify-start w-4 h-4 mr-3 text-gray-150">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                            aria-hidden="true">
+                                            <path
+                                                d="M3.25 4A2.25 2.25 0 001 6.25v7.5A2.25 2.25 0 003.25 16h7.5A2.25 2.25 0 0013 13.75v-7.5A2.25 2.25 0 0010.75 4h-7.5zM19 4.75a.75.75 0 00-1.28-.53l-3 3a.75.75 0 00-.22.53v4.5c0 .199.079.39.22.53l3 3a.75.75 0 001.28-.53V4.75z">
+                                            </path>
+                                        </svg></span><span class="flex-grow">What You'll Learn</span><a
+                                        class="inline-block md:hidden"
+                                        href="https://codewithmosh.teachable.com/courses/build-ai-powered-apps/lectures/62789524">
+                                        <div class="bg-gray-710 p-2 rounded-full">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 448 512" height="8" width="8"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                    </a><a
+                                        class="group inline-block px-3 py-1 text-sm no-underline text-center text-white font-medium md:font-semibold rounded-full bg-gray-450 hover:bg-gray-500 transition-all duration-200 ease-out hover:text-white hover:no-underline hidden md:inline-block"
+                                        role="button"
+                                        href="https://codewithmosh.teachable.com/courses/build-ai-powered-apps/lectures/62789524">Preview</a>
+                                </li>
+                                <li class="flex items-center mb-3 text-base"><span
+                                        class="flex-shrink-0 justify-start w-4 h-4 mr-3 text-gray-150">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                            aria-hidden="true">
+                                            <path
+                                                d="M3.25 4A2.25 2.25 0 001 6.25v7.5A2.25 2.25 0 003.25 16h7.5A2.25 2.25 0 0013 13.75v-7.5A2.25 2.25 0 0010.75 4h-7.5zM19 4.75a.75.75 0 00-1.28-.53l-3 3a.75.75 0 00-.22.53v4.5c0 .199.079.39.22.53l3 3a.75.75 0 001.28-.53V4.75z">
+                                            </path>
+                                        </svg></span><span class="flex-grow">Setting Up Your Development
+                                        Environment</span><a class="inline-block md:hidden"
+                                        href="https://codewithmosh.teachable.com/courses/build-ai-powered-apps/lectures/62789463">
+                                        <div class="bg-gray-710 p-2 rounded-full">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 448 512" height="8" width="8"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                    </a><a
+                                        class="group inline-block px-3 py-1 text-sm no-underline text-center text-white font-medium md:font-semibold rounded-full bg-gray-450 hover:bg-gray-500 transition-all duration-200 ease-out hover:text-white hover:no-underline hidden md:inline-block"
+                                        role="button"
+                                        href="https://codewithmosh.teachable.com/courses/build-ai-powered-apps/lectures/62789463">Preview</a>
+                                </li>
+                                <li class="flex items-center mb-3 text-base"><span
+                                        class="flex-shrink-0 justify-start w-4 h-4 mr-3 text-gray-150">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                            aria-hidden="true">
+                                            <path fill-rule="evenodd"
+                                                d="M4.5 2A1.5 1.5 0 003 3.5v13A1.5 1.5 0 004.5 18h11a1.5 1.5 0 001.5-1.5V7.621a1.5 1.5 0 00-.44-1.06l-4.12-4.122A1.5 1.5 0 0011.378 2H4.5zm2.25 8.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5zm0 3a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></span><span class="flex-grow">Source Code</span><span
+                                        class="mx-2 whitespace-nowrap md:mx-5"></span></li>
+                                <li class="flex items-center mb-3 text-base"><span
+                                        class="flex-shrink-0 justify-start w-4 h-4 mr-3 text-gray-150">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                            aria-hidden="true">
+                                            <path fill-rule="evenodd"
+                                                d="M4.5 2A1.5 1.5 0 003 3.5v13A1.5 1.5 0 004.5 18h11a1.5 1.5 0 001.5-1.5V7.621a1.5 1.5 0 00-.44-1.06l-4.12-4.122A1.5 1.5 0 0011.378 2H4.5zm2.25 8.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5zm0 3a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></span><span class="flex-grow">Questions and Support</span><span
+                                        class="mx-2 whitespace-nowrap md:mx-5"></span></li>
+                                <li class="flex items-center mb-3 text-base"><span
+                                        class="flex-shrink-0 justify-start w-4 h-4 mr-3 text-gray-150">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                            aria-hidden="true">
+                                            <path fill-rule="evenodd"
+                                                d="M4.5 2A1.5 1.5 0 003 3.5v13A1.5 1.5 0 004.5 18h11a1.5 1.5 0 001.5-1.5V7.621a1.5 1.5 0 00-.44-1.06l-4.12-4.122A1.5 1.5 0 0011.378 2H4.5zm2.25 8.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5zm0 3a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z"
+                                                clip-rule="evenodd"></path>
+                                        </svg></span><span class="flex-grow">Connect with Me</span><span
+                                        class="mx-2 whitespace-nowrap md:mx-5"></span></li>
+                            </ul>
+                        </div>
+                        <div class="mb-5 py-4 px-6 border-gray-850 border-[1px] rounded-xl">
+                            <header class="flex cursor-pointer">
+                                <h3 class="text-lg font-semibold mb-0 inline flex-grow">Introduction to AI Models<span
+                                        class="ml-1 text-base">(40m)</span></h3><span
+                                    class="w-5 h-5 text-gray-150 inline-block transition-transform duration-300 ease-out ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                        aria-hidden="true">
+                                        <path fill-rule="evenodd"
+                                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                            clip-rule="evenodd"></path>
+                                    </svg></span>
+                            </header>
+                            <ul class="overflow-hidden transition-all duration-500 ease-in-out max-h-0 opacity-0"></ul>
+                        </div>
+                        <div class="mb-5 py-4 px-6 border-gray-850 border-[1px] rounded-xl">
+                            <header class="flex cursor-pointer">
+                                <h3 class="text-lg font-semibold mb-0 inline flex-grow">Setting Up a Modern Full-Stack
+                                    Project<span class="ml-1 text-base">(51m)</span></h3><span
+                                    class="w-5 h-5 text-gray-150 inline-block transition-transform duration-300 ease-out ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                        aria-hidden="true">
+                                        <path fill-rule="evenodd"
+                                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                            clip-rule="evenodd"></path>
+                                    </svg></span>
+                            </header>
+                            <ul class="overflow-hidden transition-all duration-500 ease-in-out max-h-0 opacity-0"></ul>
+                        </div>
+                        <div class="mb-5 py-4 px-6 border-gray-850 border-[1px] rounded-xl">
+                            <header class="flex cursor-pointer">
+                                <h3 class="text-lg font-semibold mb-0 inline flex-grow">Project: Building a Chatbot<span
+                                        class="ml-1 text-base">(2h)</span></h3><span
+                                    class="w-5 h-5 text-gray-150 inline-block transition-transform duration-300 ease-out ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                        aria-hidden="true">
+                                        <path fill-rule="evenodd"
+                                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                            clip-rule="evenodd"></path>
+                                    </svg></span>
+                            </header>
+                            <ul class="overflow-hidden transition-all duration-500 ease-in-out max-h-0 opacity-0"></ul>
+                        </div>
+                        <div class="mb-5 py-4 px-6 border-gray-850 border-[1px] rounded-xl">
+                            <header class="flex cursor-pointer">
+                                <h3 class="text-lg font-semibold mb-0 inline flex-grow">Prompt Engineering<span
+                                        class="ml-1 text-base">(32m)</span></h3><span
+                                    class="w-5 h-5 text-gray-150 inline-block transition-transform duration-300 ease-out ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                        aria-hidden="true">
+                                        <path fill-rule="evenodd"
+                                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                            clip-rule="evenodd"></path>
+                                    </svg></span>
+                            </header>
+                            <ul class="overflow-hidden transition-all duration-500 ease-in-out max-h-0 opacity-0"></ul>
+                        </div>
+                        <div class="mb-5 py-4 px-6 border-gray-850 border-[1px] rounded-xl">
+                            <header class="flex cursor-pointer">
+                                <h3 class="text-lg font-semibold mb-0 inline flex-grow">Building a Review
+                                    Summerizer<span class="ml-1 text-base">(2h)</span></h3><span
+                                    class="w-5 h-5 text-gray-150 inline-block transition-transform duration-300 ease-out ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                        aria-hidden="true">
+                                        <path fill-rule="evenodd"
+                                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                            clip-rule="evenodd"></path>
+                                    </svg></span>
+                            </header>
+                            <ul class="overflow-hidden transition-all duration-500 ease-in-out max-h-0 opacity-0"></ul>
+                        </div>
+                        <div class="mb-5 py-4 px-6 border-gray-850 border-[1px] rounded-xl">
+                            <header class="flex cursor-pointer">
+                                <h3 class="text-lg font-semibold mb-0 inline flex-grow">Building with Open Source
+                                    Models<span class="ml-1 text-base">(28m)</span></h3><span
+                                    class="w-5 h-5 text-gray-150 inline-block transition-transform duration-300 ease-out ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                        aria-hidden="true">
+                                        <path fill-rule="evenodd"
+                                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                            clip-rule="evenodd"></path>
+                                    </svg></span>
+                            </header>
+                            <ul class="overflow-hidden transition-all duration-500 ease-in-out max-h-0 opacity-0"></ul>
+                        </div>
+                        <div class="mb-5 py-4 px-6 border-gray-850 border-[1px] rounded-xl">
+                            <header class="flex cursor-pointer">
+                                <h3 class="text-lg font-semibold mb-0 inline flex-grow">Course Wrap Up<span
+                                        class="ml-1 text-base">(1m)</span></h3><span
+                                    class="w-5 h-5 text-gray-150 inline-block transition-transform duration-300 ease-out ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                        aria-hidden="true">
+                                        <path fill-rule="evenodd"
+                                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                            clip-rule="evenodd"></path>
+                                    </svg></span>
+                            </header>
+                            <ul class="overflow-hidden transition-all duration-500 ease-in-out max-h-0 opacity-0"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="audience">
+            <div class="grid grid-cols-1  gap-8 my-10 ">
+                <div class="md:mx-4" style="opacity: 1; transform: none;">
+                    <div class="grid place-items-center w-12 h-12 rounded-full my-3 bg-violet-50 dark:bg-blue-800">
+                        <div class="text-violet-500 dark:text-violet-75">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                height="25" width="25" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-md font-semibold mb-3 text-gradient inline-block text-transparent bg-clip-text">
+                        Target Student</p>
+                    <h2 class="text-3xl font-semibold mb-4 lg:mb-8">Who Is This For?</h2>
+                    <div class="max-w-prose">
+                        <ul class="mb-8 space-y-4 text-left">
+                            <li class="flex flex-row items-start space-x-3">
+                                <div>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                        viewBox="0 0 1024 1024" class="w-5 h-5 inline flex-shrink-0" color="#ff4bbe"
+                                        style="color:#ff4bbe" height="1em" width="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M872 474H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h720c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8z">
+                                        </path>
+                                    </svg>
+                                </div><span class="">Anyone who wants to add AI skills to their developer
+                                    toolkit</span>
+                            </li>
+                            <li class="flex flex-row items-start space-x-3">
+                                <div>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                        viewBox="0 0 1024 1024" class="w-5 h-5 inline flex-shrink-0" color="#ff4bbe"
+                                        style="color:#ff4bbe" height="1em" width="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M872 474H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h720c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8z">
+                                        </path>
+                                    </svg>
+                                </div><span class="">Frontend devs ready to go full-stack with AI-powered
+                                    features</span>
+                            </li>
+                            <li class="flex flex-row items-start space-x-3">
+                                <div>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                        viewBox="0 0 1024 1024" class="w-5 h-5 inline flex-shrink-0" color="#ff4bbe"
+                                        style="color:#ff4bbe" height="1em" width="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M872 474H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h720c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8z">
+                                        </path>
+                                    </svg>
+                                </div><span class="">Developers who want to learn modern tools and best
+                                    practices for building real-world apps</span>
+                            </li>
+                            <li class="flex flex-row items-start space-x-3">
+                                <div>
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                        viewBox="0 0 1024 1024" class="w-5 h-5 inline flex-shrink-0" color="#ff4bbe"
+                                        style="color:#ff4bbe" height="1em" width="1em"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M872 474H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h720c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8z">
+                                        </path>
+                                    </svg>
+                                </div><span class="">Anyone tired of “AI hype” and looking for practical,
+                                    hands-on projects</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="prerequisites">
+            <div class="grid grid-cols-1  gap-8 my-10 ">
+                <div class="md:mx-4" style="opacity: 1; transform: none;">
+                    <div class="grid place-items-center w-12 h-12 rounded-full my-3 bg-violet-50 dark:bg-blue-800">
+                        <div class="text-violet-500 dark:text-violet-75">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                height="25" width="25" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-md font-semibold mb-3 text-gradient inline-block text-transparent bg-clip-text">
+                        What You Should Know First</p>
+                    <h2 class="text-3xl font-semibold mb-4 lg:mb-8">Prerequisites</h2>
+                    <div class="max-w-prose">
+                        <div class="prose">
+                            <p>To get the most out of this course, you should be comfortable with <strong>modern
+                                    JavaScript and TypeScript</strong> and know the <strong>basics of React</strong>,
+                                like creating components, using JSX, and working with state and effect hooks. Some
+                                familiarity with backend development or databases is helpful but not required, and the
+                                same goes for AI—you don’t need prior experience as I’ll cover the essentials from
+                                scratch.</p>
+                        </div>
+                    </div>
+                    <p class="mb-10">Here are the courses we recommend if you need to strengthen the fundamentals.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div
+                            class="border border-slate-800 hover:dark:border-[#484354] transition-colors duration-200 ease-in-out overflow-hidden rounded-lg relative max-w-[350px]">
+                            <div class="h-[196px] relative border-b-slate-700 border-b-[1px]">
+                                <a class="relative w-full h-full inline-block" href="#">
+                                    <img alt="React 18 for Beginners" loading="lazy" decoding="async" data-nimg="fill"
+                                        class="object-cover"
+                                        style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                        sizes="350px" src="/assets/images/post-demo.jpg">
+                                </a>
+                            </div>
+                            <div class="p-6">
+                                <div class="flex justify-between items-start">
+                                    <h3 class="mb-2 flex"><a
+                                            class="text-white no-underline font-semibold inline-block text-lg hover:no-underline"
+                                            href="/p/ultimate-react-part1">React 18 for Beginners</a></h3>
+                                    <div class="ml-1">
+                                        <div
+                                            class="bg-gray-710 font-medium md:font-bold inline px-3 py-1 rounded-md text-sm text-gray-150">
+                                            8h</div>
+                                    </div>
+                                </div>
+                                <p class="text-base mb-0">A step-by-step guide to building web apps with React 18+ and
+                                    TypeScript</p>
+                                <div class="flex gap-4 my-2" data-testid="price"><span
+                                        class="font-bold text-white">₫667,699</span><span
+                                        class="line-through">₫3,927,641</span></div>
+                                <div class="mt-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="instructor">
+            <div class="grid grid-cols-1  gap-8 my-10 ">
+                <div class="md:mx-4" style="opacity: 1; transform: none;">
+                    <div class="grid place-items-center w-12 h-12 rounded-full my-3 bg-violet-50 dark:bg-blue-800">
+                        <div class="text-violet-500 dark:text-violet-75">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                height="25" width="25" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-md font-semibold mb-3 text-gradient inline-block text-transparent bg-clip-text">
+                        Your Instructor</p>
+                    <h2 class="text-3xl font-semibold mb-4 lg:mb-8">Why Learn From Me?</h2>
+                    <div class="flex flex-col items-start md:flex-row gap-6 max-w-prose"><img alt="Mosh Hamedani"
+                            loading="lazy" width="300" height="300" decoding="async" data-nimg="1"
+                            class="w-[150px] h-[150px] rounded-full" style="color:transparent"
+                            src="/assets/images/fred_lackey.png">
+                        <div>
+                            <p>Hi! I'm Mosh Hamedani. I’ve been a software engineer for over 20 years and teaching
+                                coding for the last 10. In that time, I’ve helped millions of students level up as
+                                developers.</p>
+                            <p>My teaching style is simple: <strong class="text-white">no fluff, no wasted
+                                    time.</strong> Every lesson is practical, structured, and easy to follow.</p>
+                            <p>When you take one of my courses, you don’t just learn to code — you&nbsp;<strong
+                                    class="text-white">learn how to think like a developer</strong>.</p>
+                        </div>
+                    </div>
+                    <div class="my-10">
+                        <div class="grid grid-cols-2 gap-4 md:grid-cols-4 justify-center mx-auto">
+                            <div style="opacity: 1; transform: none;">
+                                <div class="shadow-2xl  border border-gray-850 rounded-xl relative">
+                                    <div class="flex justify-center -translate-y-[1px]">
+                                        <div class="w-3/4">
+                                            <div
+                                                class="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent  w-full">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-col justify-center items-center text-center p-8">
+                                        <p
+                                            class="font-bold mb-2 text-violet-500 dark:text-violet-60 text-2xl md:text-3xl lg:text-4xl">
+                                            10M+</p>
+                                        <p class="mb-0 leading-5">Students taught</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="opacity: 1; transform: none;">
+                                <div class="shadow-2xl  border border-gray-850 rounded-xl relative">
+                                    <div class="flex justify-center -translate-y-[1px]">
+                                        <div class="w-3/4">
+                                            <div
+                                                class="h-[1px] bg-gradient-to-r from-transparent via-green-600 to-transparent  w-full">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-col justify-center items-center text-center p-8">
+                                        <p class="font-bold mb-2 text-green-600 text-2xl md:text-3xl lg:text-4xl">4M</p>
+                                        <p class="mb-0 leading-5">YouTube fans</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="opacity: 1; transform: none;">
+                                <div class="shadow-2xl  border border-gray-850 rounded-xl relative">
+                                    <div class="flex justify-center -translate-y-[1px]">
+                                        <div class="w-3/4">
+                                            <div
+                                                class="h-[1px] bg-gradient-to-r from-transparent via-pink-550 to-transparent  w-full">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-col justify-center items-center text-center p-8">
+                                        <p
+                                            class="font-bold mb-2 text-pink-500 dark:text-pink-540 text-2xl md:text-3xl lg:text-4xl">
+                                            20+</p>
+                                        <p class="mb-0 leading-5">Years of experience</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="opacity: 1; transform: none;">
+                                <div class="shadow-2xl  border border-gray-850 rounded-xl relative">
+                                    <div class="flex justify-center -translate-y-[1px]">
+                                        <div class="w-3/4">
+                                            <div
+                                                class="h-[1px] bg-gradient-to-r from-transparent via-orange-400 to-transparent  w-full">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-col justify-center items-center text-center p-8">
+                                        <p class="font-bold mb-2 text-orange-400 text-2xl md:text-3xl lg:text-4xl">52
+                                        </p>
+                                        <p class="mb-0 leading-5">Coding courses</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="reviews">
+            <div class="grid grid-cols-1  gap-8 my-10 ">
+                <div class="md:mx-4" style="opacity: 1; transform: none;">
+                    <div class="grid place-items-center w-12 h-12 rounded-full my-3 bg-violet-50 dark:bg-blue-800">
+                        <div class="text-violet-500 dark:text-violet-75">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                aria-hidden="true" height="25" width="25" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M5.337 21.718a6.707 6.707 0 01-.533-.074.75.75 0 01-.44-1.223 3.73 3.73 0 00.814-1.686c.023-.115-.022-.317-.254-.543C3.274 16.587 2.25 14.41 2.25 12c0-5.03 4.428-9 9.75-9s9.75 3.97 9.75 9c0 5.03-4.428 9-9.75 9-.833 0-1.643-.097-2.417-.279a6.721 6.721 0 01-4.246.997z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <p class="text-md font-semibold mb-3 text-gradient inline-block text-transparent bg-clip-text">
+                        Success Stories</p>
+                    <h2 class="text-3xl font-semibold mb-4 lg:mb-8">What Our Students Are Saying</h2>
+                    <div class="flex flex-col md:flex-row gap-2 my-10">
+                        <div class="flex">
+                            <span class="font-bold mr-1 text-lg text-gray-100">Excellent</span>
+                            <span class="mx-2 flex items-center">
+                                <img alt="Stars" data-testid="trust-stars" fetchpriority="high" width="90" height="30"
+                                    decoding="async" data-nimg="1" class="inline" style="color:transparent"
+                                    src="/assets/images/star-45.svg">
+                            </span>
+                        </div>
+                        <div><span class="font-bold mr-1">4.7</span>out of 5 based on <a target="_blank"
+                                href="https://www.trustpilot.com/review/codewithmosh.com"><span
+                                    class="font-bold">6843</span> reviews</a>
+                        </div>
+                    </div>
+                    <p class="text-xl max-w-prose mb-10">Don’t just take my word for it—hear from students who have
+                        transformed their skills and careers with this course.</p>
+                    <ul class="flex flex-col gap-4">
+                        <li>
+                            <div
+                                class="border border-slate-800  transition-colors duration-200 ease-in-out overflow-hidden rounded-lg relative ">
+                                <figure class="rounded-2xl h-full p-5">
+                                    <figcaption class="flex items-center gap-x-4 mb-5">
+                                        <img alt="Fred Lackey" loading="lazy" width="40" height="40" decoding="async"
+                                            data-nimg="1" class="h-10 w-10 rounded-full bg-gray-50"
+                                            style="color:transparent" src="/assets/images/fred_lackey.png">
+                                        <div>
+                                            <div class="font-semibold text-white">Fred Lackey</div>
+                                            <img alt="Stars" data-testid="trust-stars" fetchpriority="high" width="90"
+                                                height="30" decoding="async" data-nimg="1" class="inline"
+                                                style="color:transparent" src="/assets/images/star-5.svg">
+                                        </div>
+                                    </figcaption>
+                                    <blockquote>
+                                        <p>Been recommending Mosh for years... probably a decade by now. I've lost count
+                                            of how many developers and business people I have shared one of his videos
+                                            with. Not much to say other than he's one of the best instructors out there.
+                                            Great personality for teaching and a solid mastery of the subject matter.
+                                            He's always going to be my first stop for learning something new.</p>
+                                    </blockquote>
+                                </figure>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class="border border-slate-800  transition-colors duration-200 ease-in-out overflow-hidden rounded-lg relative ">
+                                <figure class="rounded-2xl h-full p-5">
+                                    <figcaption class="flex items-center gap-x-4 mb-5">
+                                        <div>
+                                            <div class="font-semibold text-white">David Roberts</div><img alt="Stars"
+                                                data-testid="trust-stars" fetchpriority="high" width="90" height="30"
+                                                decoding="async" data-nimg="1" class="inline" style="color:transparent"
+                                                src="/assets/images/star-5.svg">
+                                        </div>
+                                    </figcaption>
+                                    <blockquote>
+                                        <p>Mosh helped me land a job as as a Mobile software engineer</p>
+                                        <p>I'm a self taught software engineer. During this period of study I completed
+                                            many courses, trying to emulate a computer science education. Mosh's courses
+                                            helped me all the way and the ones I continue coming back to and referencing
+                                            as a professional software engineer.</p>
+                                        <p>I already held a degree and didn't want to incure the cost of going to
+                                            college again. I'm also pretty motivated, so Mosh's structured courses
+                                            worked well for me.</p>
+                                        <p>May courses will teach you a framework or technology, but these are highly
+                                            perishable skills. Mosh will teach you to think like a software engineer and
+                                            load you with the correct fundamentals that will give you confidence when
+                                            you get in the workplace.</p>
+                                        <p>Thanks for everything Mosh!</p>
+                                    </blockquote>
+                                </figure>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class="border border-slate-800  transition-colors duration-200 ease-in-out overflow-hidden rounded-lg relative ">
+                                <figure class="rounded-2xl h-full p-5">
+                                    <figcaption class="flex items-center gap-x-4 mb-5"><img alt="Virginia Castillo"
+                                            loading="lazy" width="40" height="40" decoding="async" data-nimg="1"
+                                            class="h-10 w-10 rounded-full bg-gray-50" style="color:transparent"
+                                            src="/assets/images/tejasvi_kalburgi.png">
+                                        <div>
+                                            <div class="font-semibold text-white">Virginia Castillo</div><img
+                                                alt="Stars" data-testid="trust-stars" fetchpriority="high" width="90"
+                                                height="30" decoding="async" data-nimg="1" class="inline"
+                                                style="color:transparent" src="/assets/images/star-5.svg">
+                                        </div>
+                                    </figcaption>
+                                    <blockquote>
+                                        <p>The best investment I have ever made</p>
+                                        <p>Mosh is an outstanding teacher. His lessons are easy to learn and can be
+                                            followed at your own pace, making them incredibly convenient. I've been
+                                            learning from him for over four years, and the growth in my professional
+                                            career has been remarkable. It's totally worth it. I am incredibly thankful
+                                            to have found him.</p>
+                                    </blockquote>
+                                </figure>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class="border border-slate-800  transition-colors duration-200 ease-in-out overflow-hidden rounded-lg relative ">
+                                <figure class="rounded-2xl h-full p-5">
+                                    <figcaption class="flex items-center gap-x-4 mb-5"><img alt="Tejasvi Kalburgi"
+                                            loading="lazy" width="40" height="40" decoding="async" data-nimg="1"
+                                            class="h-10 w-10 rounded-full bg-gray-50" style="color:transparent"
+                                            src="/assets/images/tejasvi_kalburgi.png">
+                                        <div>
+                                            <div class="font-semibold text-white">Tejasvi Kalburgi</div><img alt="Stars"
+                                                data-testid="trust-stars" fetchpriority="high" width="90" height="30"
+                                                decoding="async" data-nimg="1" class="inline" style="color:transparent"
+                                                src="/assets/images/star-5.svg">
+                                        </div>
+                                    </figcaption>
+                                    <blockquote>
+                                        <p>Mosh comes up with the best, well-structured and informative courses as
+                                            always. I have seen most of his YouTube videos in his channel and he is the
+                                            main reason I fell in love with programming. Mosh not only teaches you the
+                                            concepts, but also points out what it takes to be a professional developer
+                                            that makes one stand out. I highly recommend his courses to all.</p>
+                                        <p>Thank you so much, Mosh</p>
+                                    </blockquote>
+                                </figure>
+                            </div>
+                        </li>
+                        <li>
+                            <div
+                                class="border border-slate-800  transition-colors duration-200 ease-in-out overflow-hidden rounded-lg relative ">
+                                <figure class="rounded-2xl h-full p-5">
+                                    <figcaption class="flex items-center gap-x-4 mb-5"><img alt="Денис Монастырский"
+                                            loading="lazy" width="40" height="40" decoding="async" data-nimg="1"
+                                            class="h-10 w-10 rounded-full bg-gray-50" style="color:transparent"
+                                            src="/assets/images/tejasvi_kalburgi.png">
+                                        <div>
+                                            <div class="font-semibold text-white">Денис Монастырский</div><img
+                                                alt="Stars" data-testid="trust-stars" fetchpriority="high" width="90"
+                                                height="30" decoding="async" data-nimg="1" class="inline"
+                                                style="color:transparent" src="/assets/images/star-5.svg">
+                                        </div>
+                                    </figcaption>
+                                    <blockquote>
+                                        <p>Mosh never ceases to amaze me. His courses are always top-notch. Mosh manages
+                                            to teach complex things easily. Thanks to his React course, I became a
+                                            programmer and got my first job. If you want to learn from the best, you
+                                            should choose Mosh as your mentor.</p>
+                                    </blockquote>
+                                </figure>
+                            </div>
+                        </li>
+                    </ul>
+                    <button
+                        class="group inline-block px-3 py-1 text-sm no-underline text-center text-white font-medium md:font-semibold rounded-full bg-gray-450 hover:bg-gray-500 transition-all duration-200 ease-out hover:text-white hover:no-underline mt-4"
+                        type="submit">Show More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

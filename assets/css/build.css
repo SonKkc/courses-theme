@@ -2678,6 +2678,10 @@ a, a:hover {
   @apply bg-linear-to-r from-[rgb(157_99_255)] to-[rgb(232_121_249)];
 }
 
+.divider-gradient {
+  @apply bg-linear-to-r from-transparent via-[#f926ae] to-[#8028ee];
+}
+
 .card {
   @apply max-w-xs bg-white rounded-2xl p-3 shadow-sm;
 }
